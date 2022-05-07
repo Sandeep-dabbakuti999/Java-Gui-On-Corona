@@ -10,7 +10,7 @@ import java.util.List;
 public class SignIn implements ActionListener{
     List<User> users = new ArrayList<User>();
     String filePath = "src\\main\\java\\CSV\\DataColect.csv";
-    User[] user=new User[5000];
+    User[] user=new User[8000];
 
     private int i=0;
     String line="";
